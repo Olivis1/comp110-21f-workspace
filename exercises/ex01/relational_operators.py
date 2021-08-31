@@ -2,8 +2,8 @@
 
 __author__: str = "730530311"
 
-left: str = str(input("Left-hand side:"))
-right: str = str(input("Right-hand side:"))
+left: str = str(input("Left-hand side: "))
+right: str = str(input("Right-hand side: "))
 left_bool: bool = bool(left)
 right_bool: bool = bool(right)
 arrow: bool = bool(left_bool < right_bool)
