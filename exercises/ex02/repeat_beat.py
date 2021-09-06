@@ -29,6 +29,19 @@ while repeat >= 1:
             else:
                 if repeat == 4:
                     print(beat + " " + beat + " " + beat + " " + beat)
+                
+                else:
+                    if repeat == 5:
+                        print(beat + " " + beat + " " + beat + " " + beat + " " + beat)
+
+                    else:
+                        if repeat == 6:
+                            print(beat + " " + beat + " " + beat + " " + beat + " " + beat + " " + beat)
+                        
+                        else:
+                            if repeat == 7:
+                                print(beat + " " + beat + " " + beat + " " + beat + " " + beat + " " + beat + " " + beat)
+                            
     repeat = repeat - repeat
         
     
