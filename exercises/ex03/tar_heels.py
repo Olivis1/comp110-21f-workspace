@@ -23,4 +23,4 @@ while i >= 1:
             else:
                 if d >= 2:
                     print("CAROLINA")
-    i: int = i - i
+    i = i - i
