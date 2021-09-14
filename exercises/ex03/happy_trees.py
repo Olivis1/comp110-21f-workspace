@@ -6,6 +6,7 @@ __author__ = "730530311"
 TREE: str = '\U0001F332'
 depth: str = input("DEPTH: ")
 dep: int = int(depth)
+T: str = TREE
 
 if dep == 0:
     dep = dep - 1
@@ -52,7 +53,7 @@ while dep >= 1:
                                 print(TREE + TREE + TREE + TREE)
                                 print(TREE + TREE + TREE + TREE + TREE)
                                 print(TREE + TREE + TREE + TREE + TREE + TREE)
-                                print(TREE + TREE + TREE + TREE + TREE + TREE + TREE)
+                                print(TREE + TREE + TREE + TREE + T + T + T)
                             else:
                                 if dep == 8:
                                     print(TREE)
@@ -60,9 +61,9 @@ while dep >= 1:
                                     print(TREE + TREE + TREE)
                                     print(TREE + TREE + TREE + TREE)
                                     print(TREE + TREE + TREE + TREE + TREE)
-                                    print(TREE + TREE + TREE + TREE + TREE + TREE)
-                                    print(TREE + TREE + TREE + TREE + TREE + TREE + TREE)
-                                    print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
+                                    print(TREE + TREE + TREE + TREE + TREE + T)
+                                    print(TREE + TREE + TREE + T + T + T + T)
+                                    print(TREE + TREE + TREE + T + T + T + T + T)
                                 else:
                                     if dep == 9:
                                         print(TREE)
@@ -70,10 +71,10 @@ while dep >= 1:
                                         print(TREE + TREE + TREE)
                                         print(TREE + TREE + TREE + TREE)
                                         print(TREE + TREE + TREE + TREE + TREE)
-                                        print(TREE + TREE + TREE + TREE + TREE + TREE)
-                                        print(TREE + TREE + TREE + TREE + TREE + TREE + TREE)
-                                        print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
-                                        print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
+                                        print(TREE + TREE + TREE + TREE + TREE + T)
+                                        print(TREE + TREE + TREE + TREE + T + T + T)
+                                        print(TREE + TREE + T + T + T + T + T + T)
+                                        print(T + T + T + T + T + T + T + T + T)
                                     else:
                                         if dep == 10:
                                             print(TREE)
@@ -82,10 +83,10 @@ while dep >= 1:
                                             print(TREE + TREE + TREE + TREE)
                                             print(TREE + TREE + TREE + TREE + TREE)
                                             print(TREE + TREE + TREE + TREE + TREE + TREE)
-                                            print(TREE + TREE + TREE + TREE + TREE + TREE + TREE)
-                                            print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
-                                            print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
-                                            print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
+                                            print(TREE + TREE + TREE + TREE + T + T + T)
+                                            print(TREE + TREE + TREE + T + T + T + T + T)
+                                            print(TREE + TREE + T + T + T + T + T + T + T)
+                                            print(T + T + T + T + T + T + T + T + T + T)
                                         else:
                                             if dep == 11:
                                                 print(TREE)
@@ -113,5 +114,5 @@ while dep >= 1:
                                                     print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
                                                     print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
                                                     print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
-                                                
+                                                                                                                              
     dep = dep - dep

@@ -9,9 +9,10 @@ i: int = 0
 while i < len(word):
     j: int = i + 1
     letter: str = word[i]
+
     # variable to hold the character at i
     while j < len(word):
-        j == letter
-        # print(word[j])
+        j == word[j]
+        
         j += 1
     i += 1
