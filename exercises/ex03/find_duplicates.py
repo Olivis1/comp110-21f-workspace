@@ -4,7 +4,6 @@ __author__ = "730530311"
 
 word: str = str(input("Enter a word: "))
 dup: bool = False
-yup: bool = True
 i: int = 0
 
 while i < len(word):
@@ -12,10 +11,11 @@ while i < len(word):
     l: str = word[i]
     # variable to hold the character at i
     while j < len(word):
-        if i or j == l:
-            print(yup)
+        if word[i] and word[j] == l:
+            dup = True
+            j = j + 1
         else:
-            if i or j != l:
-                print(dup)
-        j += 1
+            j = j + 1       
     i += 1
+
+print(dup)
