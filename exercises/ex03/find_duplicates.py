@@ -19,3 +19,4 @@ while i < len(word):
     i += 1
 
 print(dup)
+heh
