@@ -7,11 +7,13 @@ TREE: str = '\U0001F332'
 depth: str = input("DEPTH: ")
 dep: int = int(depth)
 
+if dep == 0:
+    dep = dep - 1
+
 
 while dep >= 1:
     if dep == 1:
         print(TREE)
-
     else:
         if dep == 2:
             print(TREE)
@@ -97,5 +99,19 @@ while dep >= 1:
                                                 print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
                                                 print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
                                                 print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
-                                
-            dep = dep - dep
+                                            else:
+                                                if dep == 12:
+                                                    print(TREE)
+                                                    print(TREE + TREE)
+                                                    print(TREE + TREE + TREE)
+                                                    print(TREE + TREE + TREE + TREE)
+                                                    print(TREE + TREE + TREE + TREE + TREE)
+                                                    print(TREE + TREE + TREE + TREE + TREE + TREE)
+                                                    print(TREE + TREE + TREE + TREE + TREE + TREE + TREE)
+                                                    print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
+                                                    print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
+                                                    print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
+                                                    print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
+                                                    print(TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE + TREE)
+                                                
+    dep = dep - dep
